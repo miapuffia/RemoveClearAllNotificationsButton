@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miapuffia.removeclearallnotificationsbutton">
+
+    <application android:label="RemoveClearAllNotificationsButtonModule"
+        android:icon="@drawable/ic_launcher">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="Removed Clear All button from the notification panel" />
+        <meta-data android:name="xposedminversion" android:value="90" />
+    </application>
+
+</manifest>
